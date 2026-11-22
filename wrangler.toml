@@ -1,0 +1,10 @@
+name = "aiva-agent-runner"
+main = "src/index.js"
+compatibility_date = "2026-11-21"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = false
+
+[vars]
+AIVA_ENABLE_DAYTONA_TOOLS = "no"
+# Change to yes in Cloudflare Variables after credentials and owner access tests pass.
+# XKIRO_API_KEY, DAYTONA_API_KEY, AIVA_AGENT_BRIDGE_SECRET are Secrets.
